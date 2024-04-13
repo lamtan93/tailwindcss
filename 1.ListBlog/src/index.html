@@ -3,10 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Liste de Blog</title>
     <link rel="stylesheet" href="../dist/style-output.css">
 </head>
-<body>
-    <h1 class="text-3xl text-white bg-orange-500">Liste de Blog</h1>
+<body class="bg-gray-50 ">
+    <div class="max-w-7xl py-14 px-4 mx-auto">
+        <h2 class="text-2xl font-bold text-center tracking-tight sm:text-3xl lg:text-4xl">Explore the Front-End World</h2>
+        <p class="mt-2 text-xs text-gray-500 text-center ">Here are the lastest articles</p>
+        <ul role="list" class=" max-w-sm mx-auto mt-2 flex flex-col gap-5">
+            <li class="relative bg-yellow-200 text-gray-900 rounded p-3 hover:-translate-y-1 transition-transform will-change-transform shadow-md">
+                <a href="#article" class="absolute h-full w-full"></a>    
+                <h3 class="flex justify-between">
+                    <span class="text-sm">How to create a curtain menu ?</span>
+                    <span class="text-xs text-gray-500">1d ago</span>
+                </h3>
+                <a href="#javascript" class="relative z-10 text-xs text-gray-500">#javascript</a>
+                <a href="#css" class="relative z-10 text-xs text-gray-500">#css</a>
+            </li>
+
+            <li class="relative bg-yellow-200 text-gray-900 rounded p-3 hover:-translate-y-1 transition-transform will-change-transform shadow-md bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
+                <a href="#article" class="absolute h-full w-full"></a>    
+                <h3 class="flex justify-between">
+                    <span class="text-sm">10 Flexbox Tricks</span>
+                    <span class="text-xs text-gray-500">1d ago</span>
+                </h3>
+                <a href="#css" class="relative z-10 text-xs">#css</a>
+            </li>
+
+            <li class="relative bg-yellow-200 text-gray-900 rounded p-3 hover:-translate-y-1 transition-transform will-change-transform shadow-md">
+                <a href="#article" class="absolute h-full w-full"></a>    
+                <h3 class="flex justify-between">
+                    <span class="text-sm">What are React props ?</span>
+                    <span class="text-xs text-gray-500">1d ago</span>
+                </h3>
+                <a href="#javascript" class="relative z-10 text-xs text-gray-500">#javascript</a>
+                <a href="#react" class="relative z-10 text-xs text-gray-500">#react</a>
+            </li>
+
+            <li class="relative bg-yellow-200 text-gray-900 rounded p-3 hover:-translate-y-1 transition-transform will-change-transform shadow-md bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
+                <a href="#article" class="absolute h-full w-full"></a>    
+                <h3 class="flex justify-between">
+                    <span class="text-sm">What is CSS Grid ?</span>
+                    <span class="text-xs text-gray-500">1d ago</span>
+                </h3>
+                <a href="#css" class="relative z-10 text-xs">#css</a>
+            </li>
+        </ul>
+        <div class="max-w-sm mx-auto">
+            <button class="py-2 px-3 mt-5 text-sm font-semibold text-zinc-500 rounded-sm ring ring-zinc-400 hover:ring-zinc-500">
+                Load more...
+            </button>
+
+            <!-- OU -->
+            
+            <!-- <button class="py-2 px-3 mt-5 text-sm font-semibold text-zinc-500 rounded-sm border-2 border-zinc-400 hover:border-zinc-500">
+                Load more...
+            </button> -->
+        </div>
+    </div>
 </body>
 </html>
