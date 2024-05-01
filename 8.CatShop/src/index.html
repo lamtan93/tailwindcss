@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="h-screen">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Shop</title>
+    <link rel="stylesheet" href="../dist/style-output.css">
+</head>
+<body class="bg-gray-50">
+    <section class="max-w-6xl mx-auto py-10 px-10 flex flex-col">
+        <h1 class="  
+            font-bold 
+            tracking-wider 
+            uppercase 
+            text-center" 
+        >
+            <span class="sm:text-2xl font-thin tracking-tight">your</span>
+            <span class="text-4xl bg-gradient-to-br from-red-500 to-orange-400 text-transparent bg-clip-text"> Favorite Cat </span>   
+        </h1>
+        <div class="mt-10 flex flex-col items-center gap-5 sm:flex-row sm:justify-between  ">
+            <div class="relative">
+                <label for="search"></label>
+                <input id="search" type="text" placeholder="find your cat"
+                    class="px-6 font-thin ring-1 ring-gray-500 text-xl rounded-sm placeholder:text-sm">
+                <div class="absolute top-[50%] translate-y-[-50%]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                  
+            </div>
+            <ul class="flex gap-5 text-gray-200 font-thin">
+                <li class="px-2 py-1 bg-blue-500 rounded"><a href="#Members">Europe</a></li>
+                <li class="px-2 py-1 text-black rounded hover:bg-blue-500 hover:text-gray-200 transition-all duration-200"><a href="#Members">Asie</a></li>
+                <li class="px-2 py-1 text-black rounded hover:bg-blue-500 hover:text-gray-200 transition-all duration-200"><a href="#Members">Others</a></li>
+            </ul>
+        </div>
+        <div class="mt-7 grid grid-cols-1 sm:grid-cols-3 md:grid-col-4 gap-3">
+            <div class="px-3 py-2 ring-1 ring-gray-300 rounded-sm flex items-center gap-6">
+                <div class="w-24 h-24">
+                    <img src="../images/cat-1.jpeg" alt="cat europeen black head"
+                    class="w-full h-full object-cover rounded-e-full">
+                </div>
+                <div class="flex flex-col justify-around h-full w-full">
+                    <h2 class="text-xl sm:text-2xl font-medium text-gray-700 tracking-wider flex justify-between">
+                        Nora
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </span>
+                    </h2>
+                    <p class="text-sm font-thin text-gray-500">A special and handsome cat</p>
+                    <a href="#" class="flex items-center text-xs text-gray-500">More informations                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>                              
+                    </a>
+                </div>
+            </div>
+
+            <div class="px-3 py-2 ring-1 ring-gray-300 rounded-sm flex items-center gap-6">
+                <div class="w-24 h-24">
+                    <img src="../images/cat-2.jpeg" alt="cat europeen black head"
+                    class="w-full h-full object-cover rounded-e-full">
+                </div>
+                <div class="flex flex-col justify-around h-full w-full">
+                    <h2 class="text-xl sm:text-2xl font-medium text-gray-700 tracking-wider flex justify-between">
+                        King
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </span>
+                    </h2>
+                    <p class="text-sm font-thin text-gray-500">Serious business man</p>
+                    <a href="#" class="flex items-center text-xs text-gray-500">More informations                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>                              
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="px-3 py-2 ring-1 ring-gray-300 rounded-sm flex items-center gap-6">
+                <div class="w-24 h-24">
+                    <img src="../images/cat-3.jpeg" alt="cat europeen black head"
+                    class="w-full h-full object-cover rounded-e-full">
+                </div>
+                <div class="flex flex-col justify-around h-full w-full">
+                    <h2 class="text-xl sm:text-2xl font-medium text-gray-700 tracking-wider flex justify-between">
+                        Nut
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </span>
+                    </h2>
+                    <p class="text-sm font-thin text-gray-500">Eat everything you have</p>
+                    <a href="#" class="flex items-center text-xs text-gray-500">More informations                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>                              
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="px-3 py-2 ring-1 ring-gray-300 rounded-sm flex items-center gap-6">
+                <div class="w-24 h-24">
+                    <img src="../images/cat-4.jpeg" alt="cat europeen black head"
+                    class="w-full h-full object-cover rounded-e-full">
+                </div>
+                <div class="flex flex-col justify-around h-full w-full">
+                    <h2 class="text-xl sm:text-2xl font-medium text-gray-700 tracking-wider flex justify-between">
+                        Corgi
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </span>
+                    </h2>
+                    <p class="text-sm font-thin text-gray-500">Sleep everywhere he can</p>
+                    <a href="#" class="flex items-center text-xs text-gray-500">More informations                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>                              
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="px-3 py-2 ring-1 ring-gray-300 rounded-sm flex items-center gap-6">
+                <div class="w-24 h-24">
+                    <img src="../images/cat-5.jpeg" alt="cat europeen black head"
+                    class="w-full h-full object-cover rounded-e-full">
+                </div>
+                <div class="flex flex-col justify-around h-full w-full">
+                    <h2 class="text-xl sm:text-2xl font-medium text-gray-700 tracking-wider flex justify-between">
+                        PokeCat
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </span>
+                    </h2>
+                    <p class="text-sm font-thin text-gray-500">He can sing and danse</p>
+                    <a href="#" class="flex items-center text-xs text-gray-500">More informations                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>                              
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="px-3 py-2 ring-1 ring-gray-300 rounded-sm flex items-center gap-6">
+                <div class="w-24 h-24">
+                    <img src="../images/cat-6.jpeg" alt="cat europeen black head"
+                    class="w-full h-full object-cover rounded-e-full">
+                </div>
+                <div class="flex flex-col justify-around h-full w-full">
+                    <h2 class="text-xl sm:text-2xl font-medium text-gray-700 tracking-wider flex justify-between">
+                        Chocolate
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </span>
+                    </h2>
+                    <p class="text-sm font-thin text-gray-500">He can't live without you</p>
+                    <a href="#" class="flex items-center text-xs text-gray-500">More informations                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>                              
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="px-3 py-2 ring-1 ring-gray-300 rounded-sm flex items-center gap-6">
+                <div class="w-24 h-24">
+                    <img src="../images/cat-7.jpeg" alt="cat europeen black head"
+                    class="w-full h-full object-cover rounded-e-full">
+                </div>
+                <div class="flex flex-col justify-around h-full w-full">
+                    <h2 class="text-xl sm:text-2xl font-medium text-gray-700 tracking-wider flex justify-between">
+                        Angel
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </span>
+                    </h2>
+                    <p class="text-sm font-thin text-gray-500">Angel with flowers</p>
+                    <a href="#" class="flex items-center text-xs text-gray-500">More informations                            
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                        </svg>                              
+                    </a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
